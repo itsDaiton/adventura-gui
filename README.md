@@ -1,10 +1,11 @@
 # Adventura s grafickým rozhraní
 
-fantasy adventura vytvořená v Javě obsahující grafické rozhraní.
+Fantasy adventura vytvořená v Javě obsahující grafické rozhraní.
 
 ## Popis
 
-Aplikace je jednoduchá fantasy adventura s prvkami RPG her. Jedná se vylepšení předchozího projektu - textové adventury. https://github.com/itsDaiton/adventura-text
+Aplikace je jednoduchá fantasy adventura s prvkami RPG her. Jedná se vylepšení předchozího projektu - textové adventury. 
+Odkaz na projekt: https://github.com/itsDaiton/adventura-text
 
 
 ## Pomoc
