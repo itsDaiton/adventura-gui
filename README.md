@@ -5,7 +5,7 @@ Fantasy adventura vytvořená v Javě obsahující grafické rozhraní.
 ## Popis
 
 Aplikace je jednoduchá fantasy adventura s prvkami RPG her. Jedná se vylepšení předchozího projektu - textové adventury. 
-Odkaz na projekt: https://github.com/itsDaiton/adventura-text
+* Odkaz na projekt: https://github.com/itsDaiton/adventura-text
 
 
 ## Pomoc
