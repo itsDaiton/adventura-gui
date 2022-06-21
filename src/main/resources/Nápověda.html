@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nápověda aplikace</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 style="text-align: center">Nápověda</h1>
+    <h2>Popis práce</h2>
+    <ul class="descriptionList">
+        <li>Popis práce: Semestrální práce - Adventura</li>
+        <li>Název hry: Zaklínač Edward: Příběh o bestii</li>
+        <li>Autor: David Poslušný</li>
+        <li>Předmět: 4IT115</li>
+        <li>Období: ZS 2020</li>
+    </ul>
+    <h3>Popis hry</h3>
+        <p>Hlavní postava je zaklínač jménem Edward, který byl jako malý kluk odvlečen k cechu zaklínačů a po náročné proceduře se z něj stal jeden z nich. Edward cestuje po fantasy zemi Tamriel a vyhledává monstra, která ohrožují města a vesnice a za peníze tyto monstra zabíjí. Příběh hry začíná, když Edward přijde do města Riften. Zde se dozvídá, že toto město sužuje bestie, která loví místní dobytek a zabíjí občany města.
+        </p>
+        <p>Detaily a také výši odměny se hráč může dozvědět od postavy 'Starosta', která se nachází v lokaci Město. Po spuštění hry hráč začíná v lokaci Předměstí. Další průběh hry se odvíjí od rozhodnutí hráče - příkazy v případě textové verze nebo pomocí ovládacích prvků v případě verze grafické.
+        </p>
+        <p>Cílem hry je zachránit město Riften před bestií.</p>
+    <h3>Základní aspekty hry</h3>
+        <h4>Předměty</h4>
+            <p>Ve hře existují dva druhy předmětů – zbraně a věci. Věci jsou předměty, které si může hráč uložit do inventáře tím, že je sebere v lokaci nebo že je vymění s nějakou postavou. Věci jsou, jak už je z předchozí věty patrné, prostředkem směny a dají se s ostatními postavami vyměňovat, také se dělí na pohyblivé a nepohyblivé věci. Věci se mohou prozkoumávat a také používat, více viz. tyto příkazy. Nepohyblivé věci v sobě mohou skrývat další věc, které se po prozkoumání přidají do lokace. Zbraně jsou předměty, které mají speciální slot a nepočítají se do kapacity inventáře. Hráč potřebuje zbraně k tomu, aby mohl bojovat s ostatními postavami.
+            </p>
+        <h4>Postavy</h4>
+            <p>Postavy lze dělit na obchodníky, nepřátele a na postavy, se kterými se dá jen mluvit. Obchodníci požadují nějaké předměty výměnou za svoje. Často se jedná o výhodnou výměnu. Nepřátelé jsou postavy, které při promluvení nebo zaútočení začnou s hráčem bojovat. Je nutné boj vyhrát, aby hráč mohl pokračovat dál. Po zabití nepřítele je zde možnost jeho tělo prozkoumat a najít nějaké předměty.
+            </p>
+        <h4>Lokace</h4>
+            <p>Ve hře se cestuje mezi jednotlivými lokacemi. Každá lokace má svůj omezený počet východů a navzájem se propojují. V lokacích se nacházejí postavy a předměty. Některé lokace mohou být zamčené a poté je potřeba najít a použít klíč k jejich otevření.
+            </p>
+    <h3>Grafické rozhraní</h3>
+        <p>Grafické rozhraní je rozděleno na 5 částí, které jsou popsány níže. Pozadí grafického rozhraní se mění na požadovaný obrázek při přechodu mezi lokacemi.</p>
+        <h4>Horní sekce</h4>
+            <p>Horní část grafického rozhraní obsahuje box, který hráče informuje, v jaké lokace se aktuálně nachází, doplněný popisem této lokace a také menu aplikace které, obsahuje položky: </p>
+            <ul class="list">
+                <li>Nová hra - která spustí hru od začátku.</li>
+                <li>Nápověda - která otevře nové okno s touto nápovědou.</li>
+                <li>Konec - která vypne aplikace.</li>
+            </ul>
+        <h4>Dolní sekce</h4>
+            <p>Dolní část obsahuje textové pole pro vstup příkazů a také textovou oblast, která vypisuje jednotlivé texty hry (odpovědi na jednotlivé příkazy).</p>
+        <h4>Levá sekce</h4>
+            <p>Levá sekce grafického rozhraní obsahuje tři boxy - Inventář, Zbraň a Životy.</p>
+            <p>Inventář zobrazuje obsah hráčova inventáře pomocí obrázků jednotlivých předmětů. Kliknutím levým tlačítkem myši na obrázek v inventáři se předmět vyhodí do aktuální lokace a lze ho znova sebrat. Kliknutím pravým tlačítkem myši se předmět použije, a tudíž se vymaže z inventáře a už s ním nelze pracovat. Najetím myši na jednotlivé obrázky se vypíše jejich popisek.</p>
+            <p>Zbraň zobrazuje hráčovu aktuální zbraň a její atributy, tj. poškození a odražení. Se zbraní se dále nedá manipulovat.</p>
+            <p>Životy ukazují, kolik má hráč aktuálně životů.</p>
+        <h4>Pravá sekce</h4>
+            <p>Pravá sekce grafického rozhraní obsahuje také tři boxy - Lokace, Postavy a Předměty.</p>
+            <p>Lokace ukazuje všechny východy z aktuální lokace. Hráč se může ve hře pohybovat, pokud stiskne název nějaký lokace v daném boxu.</p>
+            <p>Postavy vypisují všechny postavy, které se v aktuální lokaci nacházejí. Kliknutím tlačítka myši na jméno postavy si hráč s jednotlivou postavou promluví, tudíž se vykoná příkaz "mluv".</p>
+            <p>Předměty zobrazují všechny předměty, které lze v lokaci najít. Kliknutím tlačítka myši se předmět přidá do hráčova inventáře, kde se zobrazí jako obrázek. Pokud se jedná o nepohyblivý obrázek, tak se vypíše popis, že předmět se nedá přenášet a vykoná se tedy příkaz "prozkoumej" místo příkazu "seber" pro pohyblivé předměty. Tímto se předmět prozkoumá a do lokace se přidá nový předmět, které se přenášet dá, například: borůvky po prozkoumání křoví.</p>
+        <h4>Prostřední sekce</h4>
+            <p>V prostřední části aplikace najdeme dva boxy - Obchodování a Bojování.</p>
+            <p>Box Obchodování umožňuje hráčovi vyměňovat předměty s postavami. V prvním comboBoxu lze vybrat postavu s kterou chce hráč obchodovat a druhý comboBox zase vybírá předmět, který hráč nabídne postavě. Tlačítkem "Vyměnit" se provede výměna s postavou. V případě nastavení správných požadovaných parametrů se přidá nový předmět hráčovi do inventáře a starý se smaže. Skutečnost, jestli obchod proběhl se vypíše v textové oblasti v dolní části aplikace, stejně tak pro všechny ostatní akce v textovém rozhraní.</p>
+            <p>Box Bojování funguje velmi podobně, s jedním rozdílem, že vybíráme pouze postavu, s kterou chceme bojovat. Po stisknutí tlačítka "Bojuj" začne boj s postavou. V případě zvolení postavy, která je nepřítel, se vypíší její aktuální životy a hráč musí stiskávat tlačítko "Bojuj" dokud on nebo nepřítel neumře. V případě vybrání špatné postavy se vypíše text pod comboBoxem, že se jedná o přátelskou postavu.</p>
+    <h3>Příkazy pro textovou verzi</h3>
+        <h4>Terminate</h4>
+            <p>Tento příkaz okamžitě ukončí hru a vypne konzoli. Používá se bez parametrů a jeho účel je ukončení hry bez nutnost hru nějakým způsobem dohrát. Do konzole se napíše jako text „konec“.
+            </p>
+        <h4>Move</h4>
+            <p>Tento příkaz slouží k zajištění pohybu mezi jednotlivými lokacemi. Jedná se o základní příkaz, bez kterého by nešlo hru dohrát. Po vstoupení do nějaké lokace se na konzoli vypíše, jaké jsou východy dané lokace a hráč může zvolit kam by chtěl zrovna jít. Používá se v případě nutnosti pohyby, takže vždy, pokud hráč už udělal vše, co v dané lokaci chtěl a chce se posunout do další. Má jeden parametr, a to je platný východ do kterého chce hráč vstoupit. Do konzole se napíše jako text například „jdi Město“ nebo „jdi Most_přes_řeku“.
+            </p>
+        <h4>Inspect</h4>
+            <p>Příkaz prozkoumej slouží k prozkoumání věci v lokaci nebo v inventáři. Po zadání přikážu se vypíše jeho popis a v případě, že je to nepohyblivá věc, také poznámka, že s věcí nejde hýbat, což znamená, že ji nelze přidat do inventáře. U nehybných věcí je nastaveno, že po prozkoumání se do lokace přidá nová věc. Například po prozkoumání předmětu „Truhla“ se do lokace přidá „Meč_vojáka“. Takto se dají prozkoumávat i mrtvoly nepřátel. V případě prozkoumání klasické věci se vypíše jen její popis. Příkaz má jeden parametr, a to jaký předmět chceme prozkoumat. Do konzole se napíše jako text například „prozkoumej Truhla“ nebo „prozkoumej Koláč“.
+            </p>
+        <h4>Help</h4>
+            <p>Příkaz napoveda vypíše, jaký je úkol hráče ve hře a jaké příkaze lze použít. Používá se v případě, že hráč neví, co má dělat, nebo jak hru ovládat. Do konzole se napíše jako text „napoveda“.
+            </p>
+        <h4>Use</h4>
+            <p>Příkaz pouzij slouží k používaní věcí z inventáře. Věci, které se dají v lokacích sebrat, např „Kuře“, „Koláč“ slouží jako prostředek směny pro obchodníky, ale také se tyto věci mohou sníst, popřípadě vypít a hráči přidají životy nebo zvýší poškození na zbraně nebo hodnotu odrazení. Předměty je výhodné použít v případě, že je hráč nepotřebuje s někým vyměnit. Předmět „Klíč“ po použití odemkne lokaci „Opuštěná_věž“, kde hráč může získat dobré předměty. Příkaz má jeden parametr, a to jaký předmět chceme použít. Do konzole se napíše jako text například „pouzij Klíč“ nebo „pouzij Kukuřice“.
+            </p>
+        <h4>Trade</h4>
+            <p>Příkaz vymen se používá při obchodování s postavami. Hráč po promluvě s postavou zjistí, co dané postava nabízí a co sama chce. Když hráč požadovaný předmět najde a vymění ho s postavou, tak mu postavu dá její věc. Často se jedná o jednoduchý „minibusem“, kde odměna se výměnu je výhodná. Hráč nemůže obchodovat se zbraněmi, ale může je dostat od obchodníků. Obchodování je vždy vhodné ve hře využít, protože zvýší šanci na úspěšné dokončení hry. Příkaz má dva parametry. První parametr je předmět, který mi nabízíme a druhý parametr je komu ho nabízíme, tudíž postava nějakého obchodníka. Do konzole se napíše jako text například „vymen Miska_s_kořením Obchodník“ nebo „vymen Kuře Pocestný“.
+            </p>
+        <h4>Drop</h4>
+            <p>Příkaz vyhod se využívá pro odstranění předmětů z inventáře. Dají se vyhazovat pouze věci, nikoliv zbraně. Zbraně se dají pouze nahrazovat jinou, ale hráč začíná beze zbraně, takže první zbraň si musí najít. Příkaz má využití v případě, že hráč má plný inventář a chtěl by sebrat jinou věc, ale do inventáře se mu nevejde. Příkaz  má jeden parametr, a to jakou věc chceme vyhodit. Do konzole se napíše jako text například „vyhod Kuře“ nebo „vyhod Pivo“.
+            </p>
+        <h4>Pick</h4>
+            <p>Příkaz seber slouží k sbírání věcí do inventáře. Sbírat může hráč jen pohyblivé předměty a také zbraně. V případě sebrání zbraně se vymění jeho stávající zbraň za novou. Staré zbraň se vyhodí do aktuální lokace. Nelze sbírat předměty, když je inventář plný. Příkaz je vhodné použít vždy, avšak je nutné zacházet s kapacitou inventáře. Předměty jsou vždy důležité jak na výměnu, tak na použití. Vždy je výhodné nechat si zbraň s větším poškozením a hodnotou odražení. Z mrtvol nepřátel je možné sbírat jejich předměty, kterou jsou vždy silnější než všechny předchozí. Příkaz má jeden parametr, a to jaký předmět chceme sebrat. Do konzole se napíše jako text například „seber Dýka“ nebo „seber Kuře“.
+            </p>
+        <h4>Inventory</h4>
+            <p>Příkaz inventar vypíše aktuální obsah inventáře. Výpis obsahuje výčet všech předmětů, které hráč v inventáři má, dále jaká je jeho aktuální zbraň, jaké má tato zbraň poškození a hodnotu odražení a také kolik má hráč životů. Pokud hráč nemá žádnou zbraň ani předměty, tak tuto informaci vypíše. Tento příkaz se využívá pro zjištění kvality jednotlivých zbraní – která je lepší, které věci má hráč v inventáři a jestli je plný a také kolik mu zbývá životů, obecně pro zjištění základních informací důležitých pro hraní hry. Příkaz je bez parametrů. Do konzole se napíše jako text „inventar“.
+            </p>
+        <h4>Talk</h4>
+            <p>Příkaz promluv slouží k mluvení s postavami. S každým typem postavy se dá mluvit, ale každá nám jinak odpoví. Obchodníci nám řeknou, jakou věci by si od nás přáli a co nám za ní dají. V případě promluvení na nepřítele se vypíše jeho hláška a začne souboj, který musí hráč vyhrát. Když si hráč promluví s nepřítelem a nemá u sebe žádnou zbraň, tak automaticky umírá a hra končí! Normální postavy nám pouze řeknou jejich dialog a dále s nimi interaktovat nemůžeme. Příkaz se používá pro zjištění, co daný obchodník chce a co nabízí, abychom mohli s ním provést obchod. Některé postavy nám dialogem mohou sdělit informace využitelné pro dohraní hry. Příkaz má jeden parametr, a to postavu s kterou chceme mluvit. Do konzole se napíše jako text například „promluv Bandita“ nebo „promluv Obchodník“.
+            </p>
+        <h4>Fight</h4>
+            <p>Příkaz bojuj slouží pro bojování s nepřáteli. Bojový systém je ve hře navržen tak že hráč příkaz opakovaně píše do konzole, dokud nepřítel nebo on nezemře, poté boj skončí. Pokud zemře hráč, tak hra končí a hráč si může zahrát znovu. Pokud zemře nepřítel, tak se vypíše, kolik životů hráči zbylo a do lokace se přidá předmět mrtvola téhož nepřítele. Mrtvolu je možné prozkoumat a sebrat z ní silné věci. Při boji se poškození hráče vypočítá jako poškození jeho zbraně. U nepřítele je dané fixní poškození, které má. Jak hráč, tak nepřítel mají šanci na udeření kritického zásahu počítaného přes pravděpodobností vzoreček, který vynásobí poškození o 1,5. Je zde také šance na odražení rány, což znamená, že se zredukuje určitá část poškození a je možné, že poškození se zredukuje na nulu a v tom případě zásah žádné životy neubere. Nepřítel má také hodnotu odražení fixní a také jeho životy jsou závislé na tom jaký je to nepřítel. Životy ani poškození si nepřítel nijak zvyšovat nemůžeš. Hodnota odražení se u hráče vypočítá z jeho zbraně, která tuto hodnotu má. Čím větší hodnoty, tím lehčí souboj. Příkaz se používá buďto po promluvením s nepřítelem nebo pří zaútočením na nepřítele příkazem bojuj. Příkaz, jak už jsem zmínil, je nutno opakovat, dokud některá ze stran souboje neumře. Pokud při jednom kole úderů udeří hráč i nepřítel smrtelnou ránou, tak oba umírají a hra končí prohrou. Příkaz má jeden parametr a to postavu, se kterou chce bojovat. Do konzole se napíše jako text například „bojuj Bestie“ nebo „bojuj Bandita“.
+            </p>
+    <h3>Jak hru dokončit</h3>
+        <h4>Výhra</h4>
+            <p>V případě, že hráč zabije Bestie v souboji, sebere její hlavu z její mrtvoly a donese ji Starostovi. Dále musí proběhnout výměna, kde hráč nabídne hlavu bestie Starostovi. Po tomto obchodu se hráči do inventáře přidá předmět „Odměna“. Použitím tohoto předmětu se vypíše se text, který je součástí příběhu, kde Starosta děkuje hráči za zabití Bestii a zachránění Města Riften. Použitím předmětu "Odměna" tedy hra definitivně končí – hráč hru vyhrál.
+            </p>
+        <h4>Prohra</h4>
+            <ul class="list">
+                <li>V případě, že hráč zemře při boji s Banditou nebo Bestií.</li>
+                <li>V případě, že hráč promluví s nepřítelem a nemá u sebe žádnou zbraň.</li>
+            </ul>
+        <h4>Jiné</h4>
+            <p>Hra se také dá ukončit vypnutím aplikace, vybráním položky "Konec" v menu a nebo napsáním příkazu "konec" do konzole.
+            </p>
+</body>
+</html>

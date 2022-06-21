@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="pane" stylesheets="styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.vse.poslusny.MainController">
+    <top>
+        <VBox fx:id="menu">
+            <MenuBar>
+                <menus>
+                    <Menu mnemonicParsing="false" text="Menu">
+                        <items>
+                            <MenuItem fx:id="itemNewGame" mnemonicParsing="false" text="Nová hra" />
+                            <MenuItem fx:id="itemHelp" mnemonicParsing="false" text="Nápověda" />
+                            <MenuItem fx:id="itemTerminate" mnemonicParsing="false" text="Konec" />
+                        </items>
+                    </Menu>
+                </menus>
+            </MenuBar>
+            <VBox fx:id="infoBox" BorderPane.alignment="CENTER">
+                <Label fx:id="areaName" />
+                <Label fx:id="areaDescription" />
+            </VBox>
+        </VBox>
+    </top>
+    <bottom>
+        <VBox fx:id="textIO">
+            <TextArea fx:id="textOutput" editable="false"/>
+            <TextField fx:id="textInput" onKeyPressed="#onInputKeyPressed" />
+        </VBox>
+    </bottom>
+    <right>
+        <VBox fx:id="rightBox" styleClass="sideBox">
+            <VBox styleClass="sideBoxItems">
+                <Label styleClass="sideText">
+                    <text>
+                        Lokace
+                    </text>
+                </Label>
+                <VBox fx:id="areas" styleClass="sideItems">
+                </VBox>
+            </VBox>
+            <VBox styleClass="sideBoxItems">
+                <Label styleClass="sideText">
+                    <text>
+                        Postavy
+                    </text>
+                </Label>
+                <VBox fx:id="characters" styleClass="sideItems">
+                </VBox>
+            </VBox>
+            <VBox styleClass="sideBoxItems">
+                <Label styleClass="sideText">
+                    <text>
+                        Předměty
+                    </text>
+                </Label>
+                <VBox fx:id="items" styleClass="sideItems">
+                </VBox>
+            </VBox>
+        </VBox>
+    </right>
+    <left>
+        <VBox fx:id="leftBox" styleClass="sideBox">
+            <VBox fx:id="sideBoxInventory">
+                <Label styleClass="sideText">
+                    <text>
+                        Inventář
+                    </text>
+                </Label>
+                <VBox fx:id="inventory" styleClass="sideItems" >
+                </VBox>
+            </VBox>
+            <VBox fx:id="sideBoxWeapon">
+                <Label styleClass="sideText">
+                    <text>
+                        Zbraň
+                    </text>
+                </Label>
+                <VBox fx:id="weapon" styleClass="sideItems">
+                </VBox>
+            </VBox>
+            <VBox fx:id="sideBoxHealth">
+                <Label styleClass="sideText">
+                    <text>
+                        Životy
+                    </text>
+                </Label>
+                <VBox fx:id="health" styleClass="sideItems">
+                </VBox>
+            </VBox>
+        </VBox>
+    </left>
+    <center>
+        <HBox fx:id="middleBox">
+            <VBox styleClass="middleBoxItems">
+                <Label styleClass="middleText">
+                    <text>
+                        Obchodování
+                    </text>
+                </Label>
+                <VBox fx:id="tradeWindow" styleClass="middleItems">
+                    <ComboBox fx:id="traders"></ComboBox>
+                    <ComboBox fx:id="offers"></ComboBox>
+                    <Button fx:id="btnTrade">
+                        <text>
+                            Vyměnit
+                        </text>
+                    </Button>
+                </VBox>
+            </VBox>
+            <VBox styleClass="middleBoxItems">
+                <Label styleClass="middleText">
+                    <text>
+                        Bojování
+                    </text>
+                </Label>
+                <VBox fx:id="fightWindow" styleClass="middleItems">
+                    <ComboBox fx:id="enemies"/>
+                    <Label fx:id="enemyHealth"></Label>
+                    <Button fx:id="btnFight">
+                        <text>
+                            Bojuj
+                        </text>
+                    </Button>
+                </VBox>
+            </VBox>
+        </HBox>
+    </center>
+</BorderPane>

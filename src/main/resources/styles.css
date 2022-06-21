@@ -1,0 +1,110 @@
+#pane {
+    -fx-background-size: 100%;
+}
+#textOutput {
+    -fx-opacity: 0.7;
+    -fx-border-color: black;
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 20;
+    -fx-pref-height: 200;
+}
+#textInput {
+    -fx-opacity: 0.7;
+    -fx-border-color: black;
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 14;
+}
+#textIO {
+    -fx-padding: 5px;
+    -fx-spacing: 3;
+}
+.sideBox {
+    -fx-spacing: 10;
+    -fx-padding: 15px;
+    -fx-opacity: 0.7;
+    -fx-pref-width: 200;
+}
+.sideBoxItems {
+    -fx-alignment: top-center;
+    -fx-background-color: white;
+    -fx-pref-height: 250;
+}
+#sideBoxInventory {
+    -fx-alignment: top-center;
+    -fx-background-color: white;
+    -fx-pref-height: 460;
+}
+#sideBoxWeapon {
+    -fx-alignment: top-center;
+    -fx-background-color: white;
+    -fx-pref-height: 230;
+}
+#sideBoxHealth {
+    -fx-alignment: top-center;
+    -fx-background-color: white;
+}
+#areaName {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 26;
+    -fx-text-alignment: center;
+}
+#areaDescription {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 16;
+    -fx-text-alignment: center;
+}
+#infoBox {
+    -fx-alignment: center;
+    -fx-background-color: white;
+    -fx-opacity: 0.7;
+}
+.sideText {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+.sideItems {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+}
+#middleBox {
+    -fx-spacing: 10;
+    -fx-padding: 15px;
+    -fx-opacity: 0.7;
+    -fx-alignment: top-center;
+    -fx-pref-width: 600;
+}
+.middleBoxItems {
+    -fx-alignment: top-center;
+    -fx-background-color: white;
+    -fx-max-height: 200;
+    -fx-pref-width: 250;
+}
+.middleText {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+.middleItems {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+body {
+    font-family: Segoe UI;
+}
+.descriptionList {
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
+.list {
+    font-size: 18px;
+}
+li {
+    margin: 20px 0;
+}
